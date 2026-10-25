@@ -82,7 +82,7 @@ Get everything with the green **Code → Download ZIP** button. Here's where thi
 **IRS forms (PDFs):** the official tax forms, from the [IRS](https://apps.irs.gov/app/eos/) and [ProPublica](https://projects.propublica.org/nonprofits/). Boy Scouts EIN 22-1576300, Girl Scouts EIN 13-1624016.
 
 **CSV files:**| file | where the numbers come from | how |
-|---|---|---|
+
 | `IRS data/BSA_990_summary.csv` | Boy Scouts IRS forms: money in (line 12), money out (line 18), net assets (line 22). **Page 2** of the PDF for 2009–2015, **page 1** for 2016–2024 | 2012–2022 pulled from [ProPublica](https://projects.propublica.org/nonprofits/organizations/221576300) with Claude's help, the other years read off the PDFs by hand, all checked against the PDFs |
 | `IRS data/BSA_990_all_data.csv` | the summary plus donations, fees, salaries and more, 2012–2022 | pulled from [ProPublica](https://projects.propublica.org/nonprofits/organizations/221576300) with Claude's help |
 | `IRS data/BSA_990_lawsuit_expenses.csv` | Boy Scouts IRS forms: legal fees (line 11b), insurance (line 23), insurance claims and bankruptcy (line 24), total (line 25). **Page 11** for 2009–2015, **page 10** for 2016–2024 | read off the PDFs by hand, each year checked against line 25 |
