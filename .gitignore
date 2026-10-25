@@ -1,0 +1,8 @@
+.DS_Store
+.venv/
+venv/
+.ipynb_checkpoints/
+*.mp3
+*.mp4
+key.txt
+.env
